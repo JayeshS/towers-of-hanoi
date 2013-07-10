@@ -2,25 +2,35 @@
 <html lang="en">
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
-    <script src="scripts/app.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
     <link rel="stylesheet" href="css/style.css"/>
+    <script src="scripts/app.js"></script>
 </head>
 <body ng-app="TowersOfHanoi" ng-controller="diskController">
-    <div class="diskContainer">
-        <div ng-repeat="disk in src.values" class="disk" style="width: {{disk * 100}}px"></div>
-        <div class="base"></div>
-        <div>Source Pole</div>
+<div class="container">
+    <div class="row">
+        <div class="span4">
+            <div ng-repeat="disk in src.values" class="disk" style="width: {{disk * 80}}px"></div>
+            <div class="base"></div>
+            <div>Source Pole</div>
+        </div>
+        <div class="span4">
+            <div ng-repeat="disk in aux.values" class="disk" style="width: {{disk * 80}}px"></div>
+            <div class="base"></div>
+            <div>Auxiliary Pole</div>
+        </div>
+        <div class="span4">
+            <div ng-repeat="disk in dest.values" class="disk" style="width: {{disk * 80}}px"></div>
+            <div class="base"></div>
+            <div>Destination Pole</div>
+        </div>
     </div>
-    <div class="diskContainer">
-        <div ng-repeat="disk in aux.values" class="disk" style="width: {{disk * 100}}px"></div>
-        <div class="base"></div>
-        <div>Auxiliary Pole</div>
+    <div class="span12">
+        <button ng-click="solve()">Solve!</button>
     </div>
-    <div class="diskContainer">
-        <div ng-repeat="disk in dest.values" class="disk" style="width: {{disk * 100}}px"></div>
-        <div class="base"></div>
-        <div>Destination Pole</div>
-    </div>
-    <button ng-click="solve()">Solve!</button>
+</div>
 </body>
 </html>
