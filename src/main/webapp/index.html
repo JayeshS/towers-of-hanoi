@@ -1,7 +1,26 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
-<body>
-<h1>Hello World</h1>
+<body ng-app="TowersOfHanoi" ng-controller="diskController">
+    <div class="diskContainer">
+        <div ng-repeat="disk in src.values" class="disk" style="width: {{disk * 100}}px"></div>
+        <div class="base"></div>
+        <div>Source Pole</div>
+    </div>
+    <div class="diskContainer">
+        <div ng-repeat="disk in aux.values" class="disk" style="width: {{disk * 100}}px"></div>
+        <div class="base"></div>
+        <div>Auxiliary Pole</div>
+    </div>
+    <div class="diskContainer">
+        <div ng-repeat="disk in dest.values" class="disk" style="width: {{disk * 100}}px"></div>
+        <div class="base"></div>
+        <div>Destination Pole</div>
+    </div>
+    <button ng-click="solve()">Solve!</button>
 </body>
+</html>

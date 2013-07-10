@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/js/toh/server/JettyServer.java" afterPath="$PROJECT_DIR$/src/main/java/org/js/toh/server/JettyServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TowersOfHanoi.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373343592245" ignored="false" />
     <file path="/JettyServer.java" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373347779139" ignored="false" />
-    <file path="/index.html" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373345202478" ignored="false" />
-    <file path="/Dummy.txt" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373347622070" ignored="false" />
+    <file path="/index.html" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373414308507" ignored="false" />
+    <file path="/Dummy.txt" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373414790494" ignored="false" />
+    <file path="/app.js" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373353486661" ignored="false" />
+    <file path="/style.css" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373354607226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,84 +73,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JettyServer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/js/toh/server/JettyServer.java">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="510" selection-end="510" vertical-scroll-proportion="0.40298507">
+            <state line="1" column="14" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.625">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="-0.0">
+            <state line="17" column="23" selection-start="349" selection-end="349" vertical-scroll-proportion="0.40734825">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandlerWrapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.11.v20130520/jetty-server-8.1.11.v20130520-sources.jar!/org/eclipse/jetty/server/handler/HandlerWrapper.java">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="28" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandlerWrapper.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.11.v20130520/jetty-server-8.1.11.v20130520.jar!/org/eclipse/jetty/server/handler/HandlerWrapper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="16" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Handler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.11.v20130520/jetty-server-8.1.11.v20130520-sources.jar!/org/eclipse/jetty/server/Handler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="17" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.11.v20130520/jetty-server-8.1.11.v20130520-sources.jar!/org/eclipse/jetty/server/handler/ResourceHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="43" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/8.1.11.v20130520/jetty-util-8.1.11.v20130520-sources.jar!/org/eclipse/jetty/util/resource/Resource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="22" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resource.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/8.1.11.v20130520/jetty-util-8.1.11.v20130520.jar!/org/eclipse/jetty/util/resource/Resource.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="URI.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/net/URI.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+            <state line="30" column="8" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,9 +124,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/js/server/JettyServer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/java/org/js/toh/server/JettyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/app.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
       </list>
     </option>
   </component>
@@ -289,6 +241,32 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowersOfHanoi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowersOfHanoi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -309,40 +287,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TowersOfHanoi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TowersOfHanoi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,6 +310,11 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/x" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -398,6 +351,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -601,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="76" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
@@ -624,10 +577,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/js/toh/server/JettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="510" selection-end="510" vertical-scroll-proportion="0.40298507">
+        <state line="17" column="71" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="8" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.625">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="23" selection-start="349" selection-end="349" vertical-scroll-proportion="0.40734825">
+          <folding />
         </state>
       </provider>
     </entry>

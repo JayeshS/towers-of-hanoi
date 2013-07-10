@@ -1,0 +1,25 @@
+div.disk {
+    background-color: #b22222;
+    height: 50px;
+    border-radius: 10px;
+    border: groove black;
+    overflow:hidden;
+    position: relative;
+    bottom: 0;
+}
+
+div.base {
+    width: 400px;
+    background-color: #1b1b1b;
+    height: 10px;
+    border-radius: 10px;
+    border: groove #d3d3d3;
+    overflow:hidden;
+    position: relative;
+    bottom: 0;
+}
+
+div.diskContainer {
+    float: left;
+    height: 600px;
+}
