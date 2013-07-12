@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/app2.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/app2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TowersOfHanoi.iws" />
@@ -106,10 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app2.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/app2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="226" selection-end="226" vertical-scroll-proportion="0.24469821">
+            <state line="10" column="29" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.35942492">
               <folding />
             </state>
           </provider>
@@ -134,7 +142,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/js/server/JettyServer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/java/org/js/toh/server/JettyServer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/app.js" />
@@ -144,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/app2.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -567,13 +575,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.11.v20130520/jetty-server-8.1.11.v20130520-sources.jar!/org/eclipse/jetty/server/handler/HandlerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="28" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.11.v20130520/jetty-server-8.1.11.v20130520.jar!/org/eclipse/jetty/server/handler/HandlerWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="16" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
@@ -684,7 +685,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/app2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="226" selection-end="226" vertical-scroll-proportion="0.24469821">
+        <state line="10" column="29" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.35942492">
           <folding />
         </state>
       </provider>
