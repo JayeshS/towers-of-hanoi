@@ -1,8 +1,18 @@
+div {
+    font-family: monospace;
+    font-size: large;
+}
+
+.wonMessage {
+    color: purple;
+}
+
 .disk {
     background-color: #b22222;
     border-radius: 10px;
     border: black;
     position: absolute;
+    box-shadow: 5px 5px 2px #1b1b1b;
 }
 
 div.base {
@@ -13,11 +23,6 @@ div.base {
     position: absolute;
 }
 
-div.diskContainer {
-    float: left;
-    height: 600px;
-}
-
 div.pole {
     background-color: #1b1b1b;
     border-radius: 10px;
@@ -25,4 +30,31 @@ div.pole {
     border-bottom-right-radius: 0;
     border: #d3d3d3;
     position: absolute;
+}
+
+.container {
+    position: relative;
+}
+
+.canvasRow {
+    position: absolute;
+    top: 200px;
+}
+
+.btnRow {
+    position: absolute;
+    top: 400px;
+    text-align: center
+}
+
+.messageRow {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+}
+
+.poleName {
+    position: absolute;
+    top: 350px;
+    text-align: center
 }

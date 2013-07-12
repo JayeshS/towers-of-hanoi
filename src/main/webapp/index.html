@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -10,17 +10,32 @@
 
     <link rel="stylesheet" href="css/style.css"/>
     <script src="scripts/app2.js"></script>
-    <style>
-        .container {
-            position: relative;
-        }
-    </style>
 </head>
 <body>
-<div id="container" class="container"></div>
 
-<div class="btn-group">
-    <button class="btn-large" id="resetBtn" onclick="myApp.reset()">X</button>
+<div class="container">
+    <div class="row messageRow">
+        <div class="message span12">
+            <h3>Move all the disks from the Source pole to the Destination pole, only ever stacking a smaller disk on a
+                bigger one.</h3>
+        </div>
+        <div class="message wonMessage span12">
+            <h1>You won!</h1>
+        </div>
+    </div>
+    <div class="row canvasRow">
+        <div id="container" class="span12"></div>
+        <div class="row poleName">
+            <div class="span4"><h4>Source</h4></div>
+            <div class="span4"></div>
+            <div class="span4"><h4>Destination</h4></div>
+        </div>
+        <div class="row btnRow">
+            <div class="btn-group span12">
+                <button class="btn-large" id="resetBtn" onclick="myApp.reset()"><span class="ui-icon ui-icon-refresh"></span></button>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

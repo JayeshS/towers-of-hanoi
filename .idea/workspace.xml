@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/app2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/kinetic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/kinetic.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/app2.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/app2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -14,16 +11,16 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373343592245" ignored="false" />
     <file path="/JettyServer.java" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373347779139" ignored="false" />
-    <file path="/index.html" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373420234082" ignored="false" />
-    <file path="/Dummy.txt" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373414790494" ignored="false" />
+    <file path="/index.html" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373604247480" ignored="false" />
+    <file path="/Dummy.txt" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373606468529" ignored="false" />
     <file path="/app.js" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373353486661" ignored="false" />
-    <file path="/style.css" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373587522673" ignored="false" />
+    <file path="/style.css" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373603746119" ignored="false" />
     <file path="/kinetic.html" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373435192810" ignored="false" />
     <file path="/kinetic.js" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373439911319" ignored="false" />
-    <file path="/index2.html" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373595227096" ignored="false" />
-    <file path="/app2.js" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373594617850" ignored="false" />
-    <file path="/fragment.js2" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373593292228" ignored="false" />
-    <file path="/a.dummy" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373522738987" ignored="false" />
+    <file path="/index2.html" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373601687064" ignored="false" />
+    <file path="/app2.js" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373602907427" ignored="false" />
+    <file path="/fragment.js2" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373603109509" ignored="false" />
+    <file path="/a.dummy" changelist="c972a99f-5bff-408d-aa9d-0bd7c7474c4d" time="1373601147948" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +79,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="569" selection-end="569" vertical-scroll-proportion="0.3488372">
+            <state line="22" column="29" selection-start="903" selection-end="903" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app2.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jquery-ui-1.10.3.custom.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/jquery-ui-1.10.3.custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1025" column="16" selection-start="25098" selection-end="25114" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="25" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app2.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/app2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="10" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+            <state line="10" column="29" selection-start="226" selection-end="226" vertical-scroll-proportion="0.24469821">
               <folding />
             </state>
           </provider>
@@ -123,12 +138,12 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/java/org/js/toh/server/JettyServer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/app.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/kinetic.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/kinetic.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index2.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/app2.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index2.html" />
       </list>
     </option>
   </component>
@@ -481,14 +496,14 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.49541286" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30470017" sideWeight="0.32568806" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30388978" sideWeight="0.4938838" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30470017" sideWeight="0.66360855" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -632,20 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/jquery-ui-1.10.3.custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="947" column="10" selection-start="20702" selection-end="20702" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.57507986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="112" column="16" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.33226836">
@@ -660,16 +661,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/app2.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/jquery-ui-1.10.3.custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="10" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+        <state line="1025" column="16" selection-start="25098" selection-end="25114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="569" selection-end="569" vertical-scroll-proportion="0.3488372">
+        <state line="22" column="29" selection-start="903" selection-end="903" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/app2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="226" selection-end="226" vertical-scroll-proportion="0.24469821">
           <folding />
         </state>
       </provider>

@@ -8,7 +8,7 @@ $(document).ready(function () {
         var baseWidth = 300;
         var baseHeight = 10;
         var poleWidth = 20;
-        var numberOfDisks = 3;
+        var numberOfDisks = 5;
         var container = $("#container");
         var poles = [];
         var polesMap = {};
@@ -47,13 +47,12 @@ $(document).ready(function () {
 
         function createBase(opts) {
             var base = document.createElement("div");
-            var leftCoord = opts.left ? opts.left : coords.Src.x - baseWidth / 2;
             $(base)
                 .attr('poleName', opts.name)
                 .addClass('base')
                 .css(
                 {
-                    left: leftCoord,
+                    left: opts.left,
                     top: coords.Src.y,
                     height: baseHeight
                 })
@@ -61,13 +60,13 @@ $(document).ready(function () {
             container.append(base);
 
             var pole = document.createElement("div");
-            var poleHeight = poles[0].disks.length * diskHeight + 15;
+            var poleHeight = poles[0].disks.length * diskHeight + 50;
             $(pole)
                 .attr('poleName', opts.name)
                 .addClass('pole')
                 .addClass('droppable')
                 .css({
-                    left: leftCoord + baseWidth / 2,
+                    left: opts.left + baseWidth / 2 - poleWidth / 2,
                     top: coords.Src.y - poleHeight,
                     height: poleHeight,
                     width: poleWidth,
@@ -77,9 +76,9 @@ $(document).ready(function () {
         }
 
         function initialiseBases() {
-            createBase({name: poles[0].name});
-            createBase({name: poles[1].name, left: coords.Aux.x - baseWidth / 2});
-            createBase({name: poles[2].name, left: coords.Dst.x - baseWidth / 2});
+            createBase({name: poles[0].name, left: coords.Src.x - baseWidth / 2});
+            createBase({name: poles[1].name, left: coords.Aux.x - baseWidth / 2 });
+            createBase({name: poles[2].name, left: coords.Dst.x - baseWidth / 2 });
         }
 
         function draw() {
@@ -97,6 +96,7 @@ $(document).ready(function () {
                 drop: function (event, elem) {
                     console.info("dropped from " + elem.draggable.attr('fromPole') + ' to ' + $(this).attr('poleName'));
                     move(elem.draggable, $(this));
+                    $(".droppable").droppable("enable");
                 }
             });
             $('.draggable').draggable({
@@ -106,11 +106,11 @@ $(document).ready(function () {
                         var diskSize = elem.helper.attr('size');
                         var toPole = polesMap[$(this).attr('poleName')];
                         if (!toPole.canAcceptDiskSize(diskSize)) {
-                            $(this).droppable( "disable" );
+                            $(this).droppable("disable");
                         }
                     });
                 },
-                stop: function(event, elem) {
+                stop: function (event, elem) {
                     $(".droppable").droppable("enable");
                 },
                 revert: 'invalid',
@@ -120,11 +120,11 @@ $(document).ready(function () {
         }
 
         function poleConstructor(opts) {
-            opts.isEmpty = function() {
+            opts.isEmpty = function () {
                 return this.disks.length === 0;
             };
 
-            opts.canAcceptDiskSize = function(diskSize) {
+            opts.canAcceptDiskSize = function (diskSize) {
                 return this.isEmpty() || this.disks[0] > diskSize;
             };
             return opts;
@@ -143,7 +143,22 @@ $(document).ready(function () {
             draw();
             initialiseBases();
             initDragDrop();
+            message.hide();
         }
+
+        var message = function () {
+            var selector = ".wonMessage";
+            return {
+                hide: function hideMessages() {
+                    $(selector).hide();
+                },
+                show: function hideMessages() {
+                    $(selector).show();
+                }
+
+            }
+        }();
+
 
         function drawPole(pole) {
             for (var i = pole.disks.length; i > 0; i--) {
@@ -191,6 +206,16 @@ $(document).ready(function () {
             console.log('Adding ' + disk + ' from ' + fromPole.name + ' to ' + toPole.name);
             toPole.disks.unshift(disk);
             draw();
+
+            function checkResult() {
+                if (polesMap['Dst'].disks.length === numberOfDisks) {
+                    message.show();
+                } else {
+                    message.hide();
+                }
+            }
+
+            checkResult();
         }
 
         return {
