@@ -1,25 +1,28 @@
-div.disk {
+.disk {
     background-color: #b22222;
-    height: 50px;
     border-radius: 10px;
-    border: groove black;
-    /*overflow:hidden;*/
-    /*position: relative;*/
-    /*bottom: 0;*/
+    border: black;
+    position: absolute;
 }
 
 div.base {
-    /*width: 400px;*/
+    width: 300px;
     background-color: #1b1b1b;
-    height: 10px;
     border-radius: 10px;
-    border: groove #d3d3d3;
-    /*overflow:hidden;*/
-    /*position: relative;*/
-    /*bottom: 0;*/
+    border: #d3d3d3;
+    position: absolute;
 }
 
 div.diskContainer {
     float: left;
     height: 600px;
+}
+
+div.pole {
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: #d3d3d3;
+    position: absolute;
 }
